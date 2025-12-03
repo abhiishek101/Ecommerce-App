@@ -180,7 +180,7 @@ class _LoginPageState extends State<LoginPage> {
                               );
                               Navigator.restorablePushNamedAndRemoveUntil(
                                 context,
-                                "/homw",
+                                "/home",
                                 (route) => false,
                               );
                             } else {
